@@ -3,7 +3,7 @@ from kiteconnect import KiteConnect
 
 logging.basicConfig(level=logging.DEBUG)
 
-kite = KiteConnect(api_key="your_api_key")
+kite = KiteConnect(api_key="uw57jt7xzbp3vwb9")
 
 # Redirect the user to the login url obtained
 # from kite.login_url(), and receive the request_token
@@ -26,9 +26,9 @@ try:
         order_type=kite.ORDER_TYPE_MARKET
     )
 
-    logging.info("Order placed. ID is: {}".format(order_id))
+    logging.info("Order placed. ID is: {RP2946}".format(order_id))
 except Exception as e:
-    logging.info("Order placement failed: {}".format(e.message))
+    logging.info("Order placement failed: {RP2946}".format(e.message))
 
 # Fetch all orders
 kite.orders()
