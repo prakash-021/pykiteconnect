@@ -3,7 +3,7 @@ from kiteconnect import KiteConnect
 
 logging.basicConfig(level=logging.DEBUG)
 
-kite = KiteConnect(api_key="uw57jt7xzbp3vwb9")
+kite = (api_key="uw57jt7xzbp3vwb9")
 
 # Redirect the user to the login url obtained
 # from kite.login_url(), and receive the request_token
